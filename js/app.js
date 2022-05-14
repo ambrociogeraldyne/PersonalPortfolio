@@ -176,6 +176,35 @@ let timer = setInterval(autoPlay, 5000);
 window.onload = load();
 
 
-//Footer Year 
+// Footer Year 
 var year = document.getElementById("year");
 year.innerHTML = new Date().getFullYear();
+
+document.write(new Date().getFullYear())
+
+// Font Awesome
+window.onload = function () {
+  var span = document.createElement('span');
+
+  span.className = 'fas';
+  span.style.display = 'none';
+  document.body.insertBefore(span, document.body.firstChild);
+  
+  alert(window.getComputedStyle(span, null).getPropertyValue('font-family'));
+    
+  document.body.removeChild(span);
+};
+
+// Button Up
+// scroll to top btn show/hide
+// scroll to top btn show/hide
+function scrollTopBtn() {
+  var scrollToTop = $('#back-to-top'),
+    scroll = $(window).scrollTop();
+  if (scroll >= 50) {
+    scrollToTop.fadeIn();
+  } else {
+    scrollToTop.fadeOut();
+  }
+}
+scrollTopBtn();

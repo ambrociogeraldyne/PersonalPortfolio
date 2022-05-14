@@ -3,15 +3,15 @@ header {
   padding: 0px 15px;
   left: 0px;
   right: 0px;
-  border-bottom: 1px solid #423940;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #6b9080;
+  box-shadow: 9px 4px 9px rgba(38, 134, 86, 0.2);
   z-index: 11;
 }
 
 .fixed {
-  background-color: rgb(236, 241, 250);
+  background-color: #a4c3b2;
   position: fixed;
-  border-color: #eee;
+  border-color: #6b9080;
   animation: fixHeader 1s ease;
   z-index: 11;
 }
@@ -37,15 +37,15 @@ header .row {
 }
 
 .brand-name a {
-  font-size: 22px;
-  font-weight: 500;
-  color: rgb(236, 241, 250);
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffffff;
   position: relative;
-  font-family: 'Lobster', cursive;
+  font-family: 'Gruppo', cursive;
 }
 
 .fixed .brand-name a {
-  color: #595959;
+  color: #ffffff;
 }
 
 .hamburger .fa {
@@ -76,13 +76,13 @@ header .row {
 .navbar ul li a {
   font-size: 15px;
   line-height: 72px;
-  color: rgb(236, 241, 250);
+  color: #fff;
   font-weight: 600;
   position: relative;
 }
 
 .fixed .navbar ul li a {
-  color: #333333;
+  color: #fff;
 }
 
 .navbar ul li a::before {
@@ -98,7 +98,7 @@ header .row {
 }
 
 .fixed .navbar ul li a::before {
-  background-color: #333333;
+  background-color: #ffffff;
 }
 
 .navbar ul li a:hover::before {

@@ -28,17 +28,18 @@
   font-size: 25px;
   font-weight: 600;
   margin: 0 0 10px;
-  color: #333333;
+  color: #595959;
 }
 
 .text h6 {
   font-size: 17px;
   margin: 0 0 25px;
-  color: #333333;
+  color: #595959;
+  line-height: 1.6em;
 }
 
 .text h6 span {
-  color: #4a4e69;
+  color: #6b9080;
   position: relative;
 }
 
@@ -58,7 +59,7 @@
   right: 0;
   position: absolute;
   height: 2px;
-  background-color: #4a4e69;
+  background-color: #6b9080;
   bottom: 0px;
 }
 
@@ -86,7 +87,7 @@
 
 .skills-list {
   line-height: 25px;
-  width: 300px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -100,7 +101,7 @@
 .fa-ul .fa-li {
   font-size: 14px;
   font-weight: 400;
-  color: #333333;
+  color: #6b9080;
 }
 
 /*.social {
@@ -137,14 +138,14 @@
   color: #000;
 }*/
 
-.social-icons{
+.social-icons {
   position: fixed;
   top: 50%;
   right: 0px;
   transform: translateY(-50%);
 }
 
-.social-icons a{
+.social-icons a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,17 +159,40 @@
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
 
-.social-icons i{
-  color: #595959;
+.social-icons i {
+  color: #6b9080;
   font-size: 20px;
 }
 
-.social-icons a:hover{
-  background-color: #333333;
+.social-icons a:hover {
+  background-color: #6b9080;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
   transition: all ease 0.5s;
 }
 
-.social-icons a:hover i{
-  color: #fff;
+.social-icons a:hover i {
+  color: rgb(255, 255, 255);
+}
+
+@media(max-width: 767px) {
+  .social-icons {
+    position: fixed;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+  }
+
+  .social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: #fff;
+    border: 1px solid #CBCBCB;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  }
 }

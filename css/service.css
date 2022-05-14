@@ -1,5 +1,5 @@
 .services {
-  background-color: rgb(236, 241, 250);
+  background-color: rgb(245, 248, 255);
   padding: 120px 15px 120px;
 }
 
@@ -18,9 +18,9 @@
 .box {
   background-color: #fff;
   flex: 0 0 calc(33.33% - 20px);
-  max-width: calc(33.33% - 20px);
+  max-width: calc(25.25% - 20px);
   margin-bottom: 30px;
-  border: 1px solid #eee;
+  border: 1px solid #6b9080;
   border-radius: 5px;
   padding: 30px;
   text-align: center;
@@ -30,7 +30,7 @@
 .box::before {
   content: "";
   height: 2px;
-  background-color: #595959;
+  background-color: #6b9080;
   position: absolute;
   bottom: 0px;
   width: 50px;
@@ -47,7 +47,7 @@
 .box .icon {
   height: 60px;
   width: 60px;
-  background-color: #595959;
+  background-color: #6b9080;
   margin: 15px auto 20px;
   border-radius: 50%;
 }
@@ -67,7 +67,7 @@
 .box h5 {
   font-size: 16px;
   font-weight: 600;
-  color: #000;
+  color: #6b9080;
   margin: 0;
 }
 
