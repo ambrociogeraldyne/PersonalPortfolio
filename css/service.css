@@ -21,7 +21,10 @@
   max-width: calc(25.25% - 20px);
   margin-bottom: 30px;
   border: 1px solid #6b9080;
-  border-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   padding: 30px;
   text-align: center;
   position: relative;
