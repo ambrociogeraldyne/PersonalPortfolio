@@ -47,16 +47,47 @@ footer {
     color: rgb(236, 241, 250);
 }
 
-.gotobtn.position-fixed {
-    bottom: 20px;
+.gotobtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 10;
 }
 
-.gotobtn{
+.gotobtn a {
+    height: 39px;
+    width: 37px;
+    text-align: center;
+    background-color:#a4c3b2;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.gotobtn a span {
+    color: #6b9080;
+    line-height: 39px;
+    font-size: 17px;
+}
+
+.gotobtn a:hover{
+    background-color: #6b9080;
+    transition: all ease 0.5s;
+}
+
+.gotobtn a:hover span{
+    color: #fff;
+    transition: all ease 0.5s;
+}
+
+
+/* .gotobtn{
     display: flex;
-    /* right: 40px;
+    right: 40px;
     top: auto;
     z-index: 10;
-    display: none; */
+    display: none;
 }
 
 .gotobtn a{
@@ -112,4 +143,4 @@ footer {
         color: #fff;
         transition: all ease 0.5s;
     }
-}
+} */
