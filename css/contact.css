@@ -9,12 +9,19 @@
 }
 
 .contact-form {
-    background-color: #fff;
+    flex: 0 0 100%;
+    min-height: 40vh;
+    background-image: url("../img/svg/contact.svg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    border-radius: 10px;
+    /* background-color: #fff;
     flex: 0 0 100%;
     max-width: 100%;
     padding: 40px;
     border: 1.5px solid #eee;
-    border-radius: 5px;
+    border-radius: 10px; */
 }
 
 .contact-text {
