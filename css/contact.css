@@ -2,6 +2,7 @@
 
 .contact {
     padding: 100px 15px;
+    background-color: #fff;
 }
 
 .contact .row .title h1::before {

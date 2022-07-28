@@ -8,9 +8,13 @@
 }
 
 .text-center .highlight{
-    color: #4a4e69;
+    color: #a4c3b2;
     font-weight: bold;
     cursor: pointer;
+}
+
+.text-center .highlight i:hover{
+    color: #6b9080;
 }
 
 .text-center p{
@@ -18,12 +22,12 @@
 }
 
 .text-center a{
-    color: #4a4e69;
+    color: #a4c3b2;
     font-size: small;
 }
 
 .text-center a:hover{
-    color: #6b9080; 
+    color: #6b9080;
 }
 
 .filter-btn {
