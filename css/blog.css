@@ -1,5 +1,6 @@
 .blog {
-    background-color: rgb(245, 248, 255);
+    /* background-color: rgb(245, 248, 255); */
+    background-color: #e7f2f8;
     padding: 100px 0px;
 }
 
@@ -48,7 +49,7 @@
 
 .blog-info span {
     font-size: 12px;
-    color: #6b9080;
+    color: #FFAAE0;
     display: inline-block;
 
 }
@@ -62,14 +63,14 @@
 .blog-box h3 {
     font-size: 22px;
     font-weight: 600;
-    color: #595959;
+    color: #001466;
     margin: 0;
     padding: 0 0 10px;
     cursor: pointer;
 }
 
 .blog-box h3:hover {
-    color: #6b9080;
+    color: #FFAAE0;
 }
 
 .blog-box p {
@@ -77,22 +78,22 @@
     font-weight: 400;
     line-height: 24px;
     /* color: #000; */
-    color: #838383;
+    color: #001466;
     margin: 0 0 10px;
 }
 
 .blog-box a {
     font-size: 14px;
-    color: #6b9080;
+    color: #001466;
     text-transform: uppercase;
     font-weight: 600;
     display: inline-block;
-    border-bottom: 2px solid #6b9080;
+    border-bottom: 2px solid #001466;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
 .blog-box a:hover {
-    color: #595959;
-    border-color: #595959;
+    color: #FFAAE0;
+    border-color: #FFAAE0;
 }
