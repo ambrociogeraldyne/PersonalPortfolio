@@ -18,7 +18,15 @@
 }
 
 .text-center p{
-    color: #333333;
+    color: #001466;
+}
+
+.text-center .highlight i:hover {
+    color: #FFAAE0;
+}
+
+.text-center .highlight a:hover {
+    color: #FFAAE0;
 }
 
 .text-center a{

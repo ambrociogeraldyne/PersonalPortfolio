@@ -50,8 +50,8 @@ header .row {
 
 .hamburger .fa {
   font-size: 20px;
-  background-color:#a4c3b2;
-  color: #001466;
+  background-color:#001466;
+  color: #FFAAE0;
   display: none;
   height: 30px;
   width: 35px;
@@ -59,7 +59,7 @@ header .row {
   line-height: 30px;
   text-align: center;
   cursor: pointer;
-  border: 1px solid #eee;
+  border: 1px solid #FFAAE0;
 }
 
 .navbar ul {
