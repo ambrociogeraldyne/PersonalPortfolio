@@ -7,27 +7,37 @@
     left: 30%;
 }
 
-.text-center .highlight{
-    color: #a4c3b2;
+.text-center .highlight a{
+    color: #001466;
     font-weight: bold;
     cursor: pointer;
+    font-size: 15px;
 }
 
 .text-center .highlight i:hover{
-    color: #6b9080;
+    color: #001466;
 }
 
 .text-center p{
-    color: #333333;
+    color: #001466;
+    font-size: 15px;
+}
+
+.text-center .highlight i:hover {
+    color: #FFAAE0;
+}
+
+.text-center .highlight a:hover {
+    color: #FFAAE0;
 }
 
 .text-center a{
-    color: #a4c3b2;
+    color: #001466;
     font-size: small;
 }
 
 .text-center a:hover{
-    color: #6b9080;
+    color: #001466;
 }
 
 .filter-btn {
@@ -42,7 +52,7 @@
 }
 
 .filter-btn ul li {
-    color: #333333;
+    color: #FFAAE0;
     font-weight: 500;
     font-size: 15px;
     display: inline-block;
@@ -53,8 +63,8 @@
 }
 
 .filter-btn ul li.active {
-    color: #6b9080;
-    border-bottom: 2px solid #6b9080;
+    color: #001466;
+    border-bottom: 2px solid #001466;
 }
 
 .filter-btn {

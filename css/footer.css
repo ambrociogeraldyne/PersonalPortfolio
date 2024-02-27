@@ -1,6 +1,6 @@
 footer {
     padding: 50px 15px;
-    background-color: #a4c3b2;
+    background-color: #001466;
 }
 
 .footer-logo {
@@ -8,9 +8,9 @@ footer {
     max-width: 100%;
     text-align: center;
     font-size: 45px;
-    font-family: 'Gruppo', cursive;
-    color: #6b9080;
-    font-weight: 900;
+    font-family: 'Onest';
+    color: #FFAAE0;
+    font-weight: 500;
 }
 
 .social-link {
@@ -29,12 +29,12 @@ footer {
 }
 
 .social-link a:hover {
-    color: #6b9080;
+    color: #FFAAE0;
     transform: scale(1.3);
 }
 
 .copyright {
-    background-color: #333333;
+    background-color: #FFAAE0;
     border-top: 1px solid #999999;
     padding: 15px;
 }
@@ -44,7 +44,8 @@ footer {
     text-align: center;
     font-size: 12px;
     font-weight: 400;
-    color: rgb(236, 241, 250);
+    /* color: rgb(236, 241, 250); */
+    color: #001466;
 }
 
 .gotobtn {
@@ -58,7 +59,7 @@ footer {
     height: 39px;
     width: 37px;
     text-align: center;
-    background-color:#a4c3b2;
+    background-color:#001466;
     text-decoration: none;
     display: block;
     border-radius: 10px;
@@ -66,13 +67,13 @@ footer {
 }
 
 .gotobtn a span {
-    color: #6b9080;
+    color: #FFAAE0;
     line-height: 39px;
     font-size: 17px;
 }
 
 .gotobtn a:hover{
-    background-color: #6b9080;
+    background-color: #001466;
     transition: all ease 0.5s;
 }
 

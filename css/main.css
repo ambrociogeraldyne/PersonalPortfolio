@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"); */
 /* @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700&display=swap'); */
@@ -25,7 +26,8 @@ body {
   margin: 0;
   margin: 0;
   padding: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Onest', sans-serif;
+  /* font-family: 'Quicksand', sans-serif; */
   /* font-family: 'DM Sans', sans-serif; */
   /* font-family: 'Red Hat Display', sans-serif; */
   background-color: rgb(236, 241, 250);
@@ -54,7 +56,7 @@ a {
 }
 
 .title h1 {
-  color: #6b9080 !important;
+  color: #001466 !important;
   display: inline-block;
   font-size: 35px;
   font-weight: 700;
@@ -69,13 +71,13 @@ a {
   right: 30%;
   position: absolute;
   height: 2px;
-  background-color: #6b9080;
+  background-color: #FFAAE0;
   bottom: -2px;
 }
 
 .title p {
   font-size: 12px;
-  color: #838383;
+  color: #001466;
   font-weight: 400;
   letter-spacing: 2px;
   text-rendering: optimizeLegibility;
@@ -145,7 +147,7 @@ a {
   header {
     padding: 15px;
     position: fixed;
-    background-color: #a4c3b2;
+    background-color: #001466;
     border-bottom: 1px solid #eee;
   }
 
@@ -181,12 +183,12 @@ a {
 
   .navbar ul li a {
     line-height: 42px;
-    color: #6b9080;
+    color: #001466;
   }
 
   .navbar ul li a::before {
     bottom: -3px;
-    background-color: #6b9080;
+    background-color: #001466;
   }
 
   .about .img {

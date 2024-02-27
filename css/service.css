@@ -1,5 +1,6 @@
 .services {
-  background-color: rgb(245, 248, 255);
+  /* background-color: rgb(245, 248, 255); */
+  background-color: #E1E6FC;
   padding: 120px 15px 120px;
 }
 
@@ -20,7 +21,7 @@
   flex: 0 0 calc(33.33% - 20px);
   max-width: calc(35.35% - 20px);
   margin-bottom: 30px;
-  border: 1px solid #6b9080;
+  border: 1px solid #001466;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   border-top-left-radius: 30px;
@@ -33,7 +34,7 @@
 .box::before {
   content: "";
   height: 2px;
-  background-color: #6b9080;
+  background-color: #001466;
   position: absolute;
   bottom: 0px;
   width: 50px;
@@ -50,33 +51,33 @@
 .box .icon {
   height: 60px;
   width: 60px;
-  background-color: #6b9080;
+  background-color: #001466;
   margin: 15px auto 20px;
   border-radius: 50%;
 }
 
 .box .icon .fa {
   font-size: 25px;
-  color: #fff;
+  color: #FFAAE0;
   line-height: 60px;
 }
 
 .box .icon .fas {
   font-size: 25px;
-  color: #fff;
+  color: #FFAAE0;
   line-height: 60px;
 }
 
 .box .icon .far {
   font-size: 25px;
-  color: #fff;
+  color: #FFAAE0;
   line-height: 60px;
 }
 
 .box h5 {
   font-size: 16px;
   font-weight: 600;
-  color: #6b9080;
+  color: #001466;
   margin: 0;
 }
 
@@ -84,6 +85,6 @@
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
-  color: #838383;
+  color: #001466;
   margin: 5px 0 10px;
 }
