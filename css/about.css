@@ -3,6 +3,10 @@
   background-color: #fff;
 }
 
+.title p {
+  font-size: 14px;
+}
+
 .img {
   flex: 0 0 50%;
   max-width: 50%;
