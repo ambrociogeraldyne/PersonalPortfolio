@@ -11,7 +11,8 @@
     color: #001466;
     font-weight: bold;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 .text-center .highlight i:hover{
@@ -20,7 +21,7 @@
 
 .text-center p{
     color: #001466;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .text-center .highlight i:hover {
